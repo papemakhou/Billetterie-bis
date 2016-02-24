@@ -17,7 +17,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/post/{id}", name="post")
+     * @Route("/post/{id}", name="post") // remplacer id par slug
      */
     public function postAction(Article $article)
     {
